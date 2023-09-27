@@ -1,0 +1,36 @@
+.card {
+    left: 20rem;
+}
+
+.card-header {
+    cursor: pointer;
+}
+
+.cardOp2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardOp3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.collapseClose {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.collapseOpen {
+	
+	max-height: 400px;
+    transition: max-height 0.5s ease-in;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
